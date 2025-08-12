@@ -15,8 +15,8 @@ mongoose.connect(MONGO_URI)
       process.exit();
     }
 
-    const hashedPassword = await bcrypt.hash('yourAdminPassword', 10);
-    await User.create({ username: 'admin', password: hashedPassword });
+    const hashedPassword = await bcrypt.hash('Abdai6000#8133', 10);
+    await User.create({ username: 'Abinashx1', password: hashedPassword });
     console.log('✅ Admin created');
     process.exit();
   })
