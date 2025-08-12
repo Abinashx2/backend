@@ -1,7 +1,7 @@
 import express from "express";
 const app=express();
 const PORT=5555;
-const mongoUrl='mongodb://localhost:27017/bodolandtimes';
+const mongoUrl='mongodb+srv://Abinash:Abdai6000@cluster0.vg2ewep.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 import blog from "./routes/blog.js";
 import mongoose from "mongoose";
 import cors from 'cors';
