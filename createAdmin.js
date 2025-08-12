@@ -5,7 +5,7 @@ import User from './models/User.js';
 
 dotenv.config();
 
-const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/bodolandtimes';
+const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://Abinash:Abdai6000@cluster0.vg2ewep.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 
 mongoose.connect(MONGO_URI)
   .then(async () => {
