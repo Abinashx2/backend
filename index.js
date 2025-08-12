@@ -14,7 +14,7 @@ dotenv.config();
 
 app.use(express.json());
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://northeastimes.netlify.app/',
     method: ['GET', 'POST'],
     Credential:true,
 }));
